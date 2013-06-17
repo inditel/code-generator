@@ -1,0 +1,21 @@
+
+PHASE 1
+* How to configure the generator
+* Command line interface!
+* Generate Entity classes
+* Generate TableGateway classes (fieldset, input filters should be able to add methods of their own)
+* Generate Fieldset classes (auto-complete fields, automatic query generation)
+* Generate InputFilter classes (filters, validators for inArray type validations and auto-complete fields)
+* Generate service_manager config
+* Generate language files for keys that require translations.
+
+PHASE 2 - Generating these should be conditional and using a config file. These are code bases that will be altered.
+* Generate controllers?
+* Generate forms?
+* Generate services?
+
+
+
+BIG QUESTIONS?
+* How can this tool be used with MongoDB? Probably can't, as there is no real structure...
+*
