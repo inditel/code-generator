@@ -1,11 +1,11 @@
 {
-    "name": "vendor_name/package_name",
-    "description": "description_text",
+    "name": "inditel/code-generator",
+    "description": "Code generation tool from database",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "author's name",
-            "email": "email@example.com"
+            "name": "Oliver Leisalu",
+            "email": "oliver@inditel.ee"
         }
     ],
     "require": {
