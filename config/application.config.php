@@ -2,8 +2,7 @@
 return array(
 
     'modules' => array(
-        'Application',
-        'ZendDeveloperTools',
+        'TestApplication'
     ),
 
     'module_listener_options' => array(

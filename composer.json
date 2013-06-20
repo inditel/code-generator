@@ -10,6 +10,7 @@
     ],
     "require": {
         "zendframework/zendframework": "2.2.1",
-        "phpunit/phpunit": "3.7.21"
+        "phpunit/phpunit": "3.7.21",
+        "zendframework/zftool": "dev-master"
     }
 }

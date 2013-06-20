@@ -32,3 +32,11 @@ Our starting structure could be seen here: https://github.com/inditel/code-gener
 * data/generated/ - there is generated code, user will not make modifications there or they will be overwritten
 * src - there is code that is generated once (does not need that much regeneration, as extends generated main classes, where for example entity properties are, form element definitions etc)
 * test - tests written by you. Dummies will be generated.
+
+
+Criticism
+* Why not use Doctrine entity generator?
+Doctrine and Zend have problems working together if you get to more complex applications. (Annotations have their limitations)
+Additionally, Doctrine model generator does not generate validators, fieldsets for you that you could easily modify. (For example, if you have to validate for varchar(200), that the value is less than 200 letters.
+If your project is big, then writing and testing all these validators takes a lot of time.
+
