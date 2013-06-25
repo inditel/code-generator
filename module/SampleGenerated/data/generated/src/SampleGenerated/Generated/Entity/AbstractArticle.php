@@ -37,6 +37,10 @@ abstract class AbstractArticle extends AbstractEntity
      * @var int
      */
     private $categoryId;
+    /**
+     * @var array
+     */
+    private $comments;
 
     /**
      * @return int

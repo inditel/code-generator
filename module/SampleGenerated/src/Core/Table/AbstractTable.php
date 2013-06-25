@@ -31,4 +31,9 @@ abstract class AbstractTable extends TableGateway implements AdapterAwareInterfa
     {
         $this->adapter = $adapter;
     }
+
+    public function findAll()
+    {
+
+    }
 }

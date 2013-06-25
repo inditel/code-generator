@@ -19,4 +19,14 @@ abstract class AbstractArticleTable extends AbstractTable
         parent::__construct('article', $adapter);
     }
 
+    public function findById()
+    {
+        // @TODO Generate content
+    }
+
+    public function findByCategoryId($categoryId)
+    {
+        // @TODO Write content.
+    }
+
 }
